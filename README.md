@@ -3,6 +3,7 @@
 Lab 5
 
 ncbi-acc-download -F fasta -m protein XP_001639017.2
+
 #downloading the protein data from ncbi genbank and outputting a fasta/.fas file
 
 blastp -db allprotein.fas -query XP_001639017.2.fa -outfmt 0 -max_hsps 1 -out nema.blastp.typical.out
